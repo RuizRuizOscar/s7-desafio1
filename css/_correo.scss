@@ -1,4 +1,9 @@
-section {
-    
+.section-characteristics {
+    background-color: $color-dark-blue-intro-bg;
 }
 
+p.email-error{
+    color: $color-light-red-error;
+    
+    // border: 1px solid red;
+}
