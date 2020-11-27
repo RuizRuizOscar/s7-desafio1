@@ -1,11 +1,66 @@
-// @import 'variables'
-
-// header {
-    // font-family: $font-raleway-font;
-// }
-
-
-header {
-    padding: 20px;   
-
+.main-header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    //  border: 1px solid white;
+     width: 100%;
+     align-items: center;
+     padding: 5%;
 }
+
+.header-list {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    margin: 10px ;
+    justify-content: space-around;
+    text-align: right;
+    font-weight: 700;
+    // border: 5px solid green;
+   }       
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+.ilustration-logo {
+        width: 85%;
+        height: 85%;
+}
+
+h1 {
+    padding: 5%;
+}
+
+.intro-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    padding-top: 100px;
+    }
+
+
+
+/*Dark Blue (main background): hsl(218, 28%, 13%)*/
+
+
+
