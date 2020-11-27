@@ -5,7 +5,70 @@
 // }
 
 
-header {
-    padding: 20px;   
-
+.main-header {
+     display: flex;
+     flex-direction: row;
+     border: 1px white;
+     width: 200%;
+     align-items: center;
+     padding: 5%;
 }
+
+.header-list {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    margin: 10px ;
+    justify-content: space-around;
+    text-align: right;
+    color: white;
+   }       
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+.ilustration-logo {
+        width: 85%;
+        height: 85%;
+}
+
+h1 {
+    color: white;
+    padding: 5%;
+}
+
+.intro-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;  
+    flex-direction: column;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    padding-top: 100px;
+    }
+
+
+
+/*Dark Blue (main background): hsl(218, 28%, 13%)*/
+
+
+
