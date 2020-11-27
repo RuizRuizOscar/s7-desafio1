@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'mixin';
+@import 'base';
+@import 'header';
+@import 'footer';
+
+// $body-copy: 
+
+
+
+body{
+    
+    font-size: 14px;
+}
+
+.heading{
+    font-family: $font-raleway-font;
+}
+
