@@ -2,7 +2,20 @@
     background-color: $color-dark-blue-intro-bg;
 }
 
-p.email-error{
+.input-email{
+    color: gray;
+    width: 230px;
+    height: 50px;
+    background-color: $color-white;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 400;
+    border: none;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#email-error{
     color: $color-light-red-error;
     
     // border: 1px solid red;
