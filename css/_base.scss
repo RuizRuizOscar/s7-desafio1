@@ -38,3 +38,28 @@ body{
     padding: 5%;
     font-weight: 700;
 }
+
+@media only screen and (min-width: 800px) {
+  /*Desktop-design*/
+
+    .main {
+        display: flex;
+        border: 1px solid red;
+        width: 1024px;
+    }
+    .section-main {
+        display: flex;
+        /*flrx direction*/
+        justify-content: flex-start;
+        flex-wrap: wrap;        
+        width: 1024px;
+        border: 1px solid red;        
+    }
+
+
+    .section-characteristics {
+        border: 1px solid red;
+        display: flex;
+        width: 350px;
+    }
+    }
