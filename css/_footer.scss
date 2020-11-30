@@ -28,6 +28,12 @@ footer{
     // border: 1px solid red;
     // margin: 10px;
     list-style-type: none;
+    li{
+        margin-bottom: 10px;
+        &:hover{
+            font-weight: 700;
+        }
+    }
 }
 
 .contact-list-row{
@@ -50,12 +56,12 @@ footer{
 
 .li-padding{
     margin: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
+    // border: 2px solid white;
+    // border-radius: 50px;
 }
 
 .li-padding2{
-    margin: 3px;
+    margin-right: 10px;
     // display: flex;
     // align-items: center;
     // padding: 15px;

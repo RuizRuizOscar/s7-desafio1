@@ -1,22 +1,32 @@
 .main-header {
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
+     justify-content: space-between;
     //  border: 1px solid white;
      width: 100%;
      align-items: center;
      padding: 5%;
 }
 
+.logo{
+    width: 25%;
+}
+
 .header-list {
     display: flex;
     list-style: none;
-    width: 30%;
+    width: 45%;
     margin: 10px ;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: right;
-    font-weight: 700;
+    font-weight: 400;
     // border: 5px solid green;
+    li{
+        &:hover{
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    }
    }       
 
 .intro-section {
@@ -25,15 +35,12 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    background-image: url("../images/bg-curvy-mobile.svg");
     }
 
 .ilustration-logo {
         width: 85%;
         height: 85%;
-}
-
-h1 {
-    padding: 5%;
 }
 
 .intro-p {
@@ -45,22 +52,19 @@ h1 {
 
 .main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    /*flex-direction: column;*/
 }
 
-.section-main {
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    justify-content: center;
-    padding-top: 100px;
+    @media only screen and (min-width: 800px) {
+        /*Desktop-design*/
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid red;
+            flex-wrap: wrap;
+            }
     }
-
-
-
-/*Dark Blue (main background): hsl(218, 28%, 13%)*/
-
-
-

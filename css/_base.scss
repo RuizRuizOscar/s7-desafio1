@@ -26,11 +26,16 @@ body{
     font-size: 15px;
     font-weight: 550;
     border: none;
+    &:hover{
+        background-color: $color-blue-cta-gradient;
     }
+}
 
 .section-characteristics {
     text-align: center;
     padding: 5%;
+    max-width: 300px;
+    max-height: 300px;
     // border: 1px solid red;
     }
 
@@ -39,27 +44,16 @@ body{
     font-weight: 700;
 }
 
-@media only screen and (min-width: 800px) {
-  /*Desktop-design*/
 
-    .main {
-        display: flex;
-        border: 1px solid red;
-        width: 1024px;
-    }
-    .section-main {
-        display: flex;
-        /*flrx direction*/
-        justify-content: flex-start;
-        flex-wrap: wrap;        
-        width: 1024px;
-        border: 1px solid red;        
-    }
+.product-description{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-weight: 900;
+}
 
 
-    .section-characteristics {
-        border: 1px solid red;
-        display: flex;
-        width: 350px;
-    }
-    }
