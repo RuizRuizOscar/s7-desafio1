@@ -35,45 +35,24 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url("../images/bg-curvy-mobile.svg");
+    margin-bottom: 50px;
     }
-
-.ilustration-logo {
-        width: 85%;
-        height: 85%;
-}
-
-h1 {
-    padding: 5%;
-    background-image: url("../images/bg-curvy-mobile.svg");
-}
 
 .intro-p {
     display: flex;
     justify-content: center;
     text-align: center;
     padding: 5%;
-    background-image: url("../images/bg-curvy-mobile.svg");
+    max-width: 650px;
 }
 
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+// .main {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+// }
 
-.section-main {
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    justify-content: center;
-    padding-top: 100px;
-    }
-
-
-
-/*Dark Blue (main background): hsl(218, 28%, 13%)*/
 
 
 
